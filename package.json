@@ -1,0 +1,25 @@
+{
+  "name": "js-animation-renderer",
+  "version": "1.0.0",
+  "description": "Renders a website with javascript animations (like d3, matter, etc) into a video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamm-es/js-animation-renderer.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jamm-es/js-animation-renderer/issues"
+  },
+  "homepage": "https://github.com/jamm-es/js-animation-renderer#readme",
+  "dependencies": {
+    "cli-progress": "^3.11.2",
+    "commander": "^9.4.1",
+    "puppeteer": "^19.2.2"
+  },
+  "type": "module"
+}
