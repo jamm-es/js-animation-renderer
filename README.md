@@ -10,7 +10,7 @@ Download the repo and run `npm install` in its directory.
 Run with `node render.js <full url to render>`.
 
 Only libraries that use, on the underlying layer, `setInterval`, `setTimeout`, or `requestAnimationFrame` are supported (though this should encompass almost all cases).
-For instance, this program was successfully used to render a [complex d3 physics simulation](https://jamesli.io) into a video perfectly. 
+For instance, this program was successfully used to render a [complex d3 physics simulation](https://www.jamesli.io/emoji-cooccurrence) into a video perfectly. 
 
 If `ffmpeg` is installed, the program will try to render the frames into an mp4, at `./rendered.mp4`.
 
